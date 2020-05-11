@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:gravity="center"
+        android:text="COMBO RỬA VÀ CHĂM SÓC XE"
+        android:layout_width="match_parent"
+        android:textSize="26dp"
+        android:textColor="#4CAF50"
+        android:layout_height="wrap_content" />
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:elevation="5dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:text="COMBO 1:"
+            android:textColor="#FFC107"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/gia1"
+            android:textColor="#E91E63"
+            android:layout_width="match_parent"
+            android:text="Giá: 109900VND"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/time1"
+            android:textColor="#03A9F4"
+            android:text="Time : 285min "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:id="@+id/tt1"
+            android:textColor="#F44336"
+            android:text="Thông tin: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <Button
+            android:id="@+id/btndathang1"
+            android:textColor="#FF5722"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đặt ngay"/>
+    </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

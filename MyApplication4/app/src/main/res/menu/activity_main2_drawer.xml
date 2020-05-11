@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/trangchu"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Trang chủ" />
+        <item
+            android:id="@+id/tienich"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tiện ích" />
+        <item
+            android:id="@+id/danhgia"
+            android:icon="@drawable/ic_star_border_black_24dp"
+            android:title="Đánh giá" />
+        <item
+            android:id="@+id/lienhe"
+            android:icon="@drawable/ic_phone_black_24dp"
+            android:title="Liên hệ" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/chucnang1"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/chucnang1" />
+            <item
+                android:id="@+id/chucnang2"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/chucnang2" />
+        </menu>
+    </item>
+
+</menu>

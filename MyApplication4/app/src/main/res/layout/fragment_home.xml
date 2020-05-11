@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Trang đặt hàng" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:text="Chọn loại xe:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <RadioGroup
+            android:id="@+id/radioGroup_character"
+           android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/radioxemay"
+            android:text="xe máy"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/radioxedap"
+            android:text="xe đạp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/radio4cho"
+
+            android:text="Ô tô (4 -5 chỗ)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/radio7cho"
+
+            android:text="Ô tô (7 chỗ)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/radioxetai"
+
+            android:text="Xe tải"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Chọn dịch vụ chăm sóc xe:" />
+        <RadioGroup
+            android:id="@+id/radioGroup_Level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/radiothuong"
+            android:text="Thường(109000VND)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/radiovip"
+            android:text="Vip(159000VND)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        </RadioGroup>
+
+
+    </LinearLayout>
+   <LinearLayout
+       android:layout_marginTop="400dp"
+       android:gravity="center"
+       android:orientation="horizontal"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <Button
+           android:textColor="#FF5722"
+           android:id="@+id/btndatlich"
+           android:layout_width="wrap_content"
+           android:text="Đặt ngay"
+           android:layout_height="wrap_content" />
+
+   </LinearLayout>
+
+
+
+</FrameLayout>
